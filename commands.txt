@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Update package lists
+sudo yum update -y
+
+# Upgrade installed packages
+sudo yum upgrade -y
+
+# Install Node.js
+sudo yum install -y nodejs
+
+# Install npm
+sudo yum install -y npm
+
+# Install Express.js globally
+sudo npm install -g express
+
+# Clone the repository
+git clone https://github.com/davidbombal/express-server-basic.git
+
+# Navigate to the cloned directory
+cd express-server-basic
+
+
+# Start the server
+node server.js
