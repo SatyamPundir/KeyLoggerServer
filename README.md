@@ -1,11 +1,11 @@
-# Very Basic Express Server with a Resource for Logging Keystrokes
+# Basic Express Server with a Resource for Logging Keystrokes
 
 ## This code DOES NOT promote or encourage any illegal activities! The content in this document is provided solely for educational purposes and to create awareness!
 
 ## This is a proof of concept and could be improved on in a lot of ways.
 
-1. To run this code use `git clone https://github.com/davidbombal/express-server-basic.git`
-2. Run the command `cd/express-server-keylogger-basic`
+1. To run this code use `git clone https://github.com/SatyamPundir/KeyLoggerServer.git`
+2. Run the command `cd/KeyLoggerServer`
 3. Run the command `python3 setup.py`. This will do the basic setup on the Ubuntu server. It will install NodeJS, Node Package Manager (NPM) and also install all the modules required such as the Express web framework, the body-parser middleware used by Express.
 4. Run the command `node server.js` to start the server on port ***8080***
 
